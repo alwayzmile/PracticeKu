@@ -56,8 +56,11 @@ void keyPressed() {
       if (get(x - halfw, y)     != #000000 &&  // left
           get(x - halfw, y - 6) != #000000 &&  // top left
           get(x - halfw, y + 6) != #000000) {  // bottom left
-        x -= 2;
-        putPlayer();  
+        // Fixing bug when player go left leaving the window from start position
+        if (x - 7 > 0) {
+          x -= 2;
+          putPlayer();  
+        }
       }
     } else if (keyCode == RIGHT) {
       if (get(x + halfw, y)     != #000000 &&  // right
