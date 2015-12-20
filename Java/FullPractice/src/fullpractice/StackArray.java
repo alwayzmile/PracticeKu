@@ -15,8 +15,7 @@ public class StackArray {
     
     public void push(int val) {
         if (!isFull()) {
-            tos++;
-            elements[tos] = val;
+            elements[++tos] = val;
         }
     }
     
