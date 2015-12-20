@@ -19,10 +19,12 @@ public class BinarySearch {
         Scanner input = new Scanner(System.in);
         Arrays.sort(numbers, 0, n);
         
+        /*
         for (int i = 0; i < n; i++) {
             System.out.print(numbers[i] + " ");
         }
         System.out.println();
+        */
         
         System.out.print("Search a number: ");
         key = input.nextInt();
@@ -64,13 +66,13 @@ public class BinarySearch {
         int result = -1;
         System.out.println(key + " " + numbers[index]);
         
-        // when this recursive will stop?
+        // when will this recursive stop?
         if (key == numbers[index])
             return index;
         else if (fromIndex > toIndex)
             return -1;
         
-        // search it again recursively
+        // search it recursively
         if (key > numbers[index])
             result = binarySearch(key, numbers, index+1, toIndex);
         else if (key < numbers[index])
