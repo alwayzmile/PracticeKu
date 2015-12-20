@@ -1,0 +1,16 @@
+C:\Users\alwayzmile\AppData\Local\Temporary Projects\HelloWPF\bin\Debug\HelloWPF.exe.config
+C:\Users\alwayzmile\AppData\Local\Temporary Projects\HelloWPF\bin\Debug\HelloWPF.exe
+C:\Users\alwayzmile\AppData\Local\Temporary Projects\HelloWPF\bin\Debug\HelloWPF.pdb
+C:\Users\alwayzmile\AppData\Local\Temporary Projects\HelloWPF\obj\Debug\HelloWPF.csprojResolveAssemblyReference.cache
+C:\Users\alwayzmile\AppData\Local\Temporary Projects\HelloWPF\obj\Debug\MainWindow.baml
+C:\Users\alwayzmile\AppData\Local\Temporary Projects\HelloWPF\obj\Debug\MainWindow.g.cs
+C:\Users\alwayzmile\AppData\Local\Temporary Projects\HelloWPF\obj\Debug\App.g.cs
+C:\Users\alwayzmile\AppData\Local\Temporary Projects\HelloWPF\obj\Debug\HelloWPF_MarkupCompile.cache
+C:\Users\alwayzmile\AppData\Local\Temporary Projects\HelloWPF\obj\Debug\HelloWPF.g.resources
+C:\Users\alwayzmile\AppData\Local\Temporary Projects\HelloWPF\obj\Debug\HelloWPF.Properties.Resources.resources
+C:\Users\alwayzmile\AppData\Local\Temporary Projects\HelloWPF\obj\Debug\HelloWPF.csproj.GenerateResource.Cache
+C:\Users\alwayzmile\AppData\Local\Temporary Projects\HelloWPF\obj\Debug\HelloWPF.exe
+C:\Users\alwayzmile\AppData\Local\Temporary Projects\HelloWPF\obj\Debug\HelloWPF.pdb
+G:\Live Love Life\GitHub\PracticeKu\C#\FullPractice\HelloWPF\HelloWPF\bin\Debug\HelloWPF.exe.config
+G:\Live Love Life\GitHub\PracticeKu\C#\FullPractice\HelloWPF\HelloWPF\obj\Debug\HelloWPF.exe
+G:\Live Love Life\GitHub\PracticeKu\C#\FullPractice\HelloWPF\HelloWPF\obj\Debug\HelloWPF.pdb
