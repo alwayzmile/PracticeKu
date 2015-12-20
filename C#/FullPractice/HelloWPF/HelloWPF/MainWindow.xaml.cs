@@ -24,7 +24,7 @@ namespace HelloWPF
         {
             InitializeComponent();
             txtHello.Text = "Hello from C#";
-            txtHello.Width = 300;
+            txtHello.Width = 230;
         }
     }
 }

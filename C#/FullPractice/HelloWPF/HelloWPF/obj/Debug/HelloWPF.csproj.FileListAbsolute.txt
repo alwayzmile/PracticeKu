@@ -14,3 +14,13 @@ C:\Users\alwayzmile\AppData\Local\Temporary Projects\HelloWPF\obj\Debug\HelloWPF
 G:\Live Love Life\GitHub\PracticeKu\C#\FullPractice\HelloWPF\HelloWPF\bin\Debug\HelloWPF.exe.config
 G:\Live Love Life\GitHub\PracticeKu\C#\FullPractice\HelloWPF\HelloWPF\obj\Debug\HelloWPF.exe
 G:\Live Love Life\GitHub\PracticeKu\C#\FullPractice\HelloWPF\HelloWPF\obj\Debug\HelloWPF.pdb
+G:\Live Love Life\GitHub\PracticeKu\C#\FullPractice\HelloWPF\HelloWPF\bin\Debug\HelloWPF.exe
+G:\Live Love Life\GitHub\PracticeKu\C#\FullPractice\HelloWPF\HelloWPF\bin\Debug\HelloWPF.pdb
+G:\Live Love Life\GitHub\PracticeKu\C#\FullPractice\HelloWPF\HelloWPF\obj\Debug\HelloWPF.csprojResolveAssemblyReference.cache
+G:\Live Love Life\GitHub\PracticeKu\C#\FullPractice\HelloWPF\HelloWPF\obj\Debug\MainWindow.baml
+G:\Live Love Life\GitHub\PracticeKu\C#\FullPractice\HelloWPF\HelloWPF\obj\Debug\MainWindow.g.cs
+G:\Live Love Life\GitHub\PracticeKu\C#\FullPractice\HelloWPF\HelloWPF\obj\Debug\App.g.cs
+G:\Live Love Life\GitHub\PracticeKu\C#\FullPractice\HelloWPF\HelloWPF\obj\Debug\HelloWPF_MarkupCompile.cache
+G:\Live Love Life\GitHub\PracticeKu\C#\FullPractice\HelloWPF\HelloWPF\obj\Debug\HelloWPF.g.resources
+G:\Live Love Life\GitHub\PracticeKu\C#\FullPractice\HelloWPF\HelloWPF\obj\Debug\HelloWPF.Properties.Resources.resources
+G:\Live Love Life\GitHub\PracticeKu\C#\FullPractice\HelloWPF\HelloWPF\obj\Debug\HelloWPF.csproj.GenerateResource.Cache

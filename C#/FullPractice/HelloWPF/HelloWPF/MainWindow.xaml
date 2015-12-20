@@ -3,11 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="455*"/>
-            <ColumnDefinition Width="62*"/>
-        </Grid.ColumnDefinitions>
-        <TextBlock x:Name="txtHello" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Hello WPF!" VerticalAlignment="Top" Width="213" FontSize="36"/>
+        <TextBlock x:Name="txtHello" Margin="0,10,0,0" TextWrapping="Wrap" Text="Hello WPF!" VerticalAlignment="Center" Width="213" FontSize="36"/>
         
     </Grid>
 </Window>
