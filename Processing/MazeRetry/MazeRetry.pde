@@ -13,7 +13,6 @@ PGraphics pg;
 PImage bg;
 int x     = 0,
     y     = 12;
-boolean go;
 
 void setup() {
   // temporarily (just for practice) the maze comes from 
