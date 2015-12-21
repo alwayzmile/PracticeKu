@@ -3,6 +3,8 @@
  * Actual player (width * height) = (19px * 14px)
  * Margin top height = 12px
  * Initial player position = (19px/2, 14px/2 + 12px)
+ *
+ * When checking the way default (x, y) position of a rect is "TOP LEFT"
  */
 
 import javax.swing.JOptionPane;
@@ -24,7 +26,7 @@ void setup() {
   pg.beginDraw();
   pg.background(#ffffff, 0);
   pg.noStroke();
-  pg.fill(#ff0000);
+  pg.fill(#0000ff);
   
   /* for testing
   for (int yi = y; yi < y+14; yi++) {
@@ -44,54 +46,22 @@ void draw() {}
 void keyPressed() {
   if (key == CODED) {
     if (keyCode == UP) {
-      go = true;
-      for (int yi = y-1; yi < y-1+14 && go; yi++) {
-        for (int xi = x; xi < x+19 && go; xi++) {
-          if (get(xi, yi) == #000000)
-            go = false;
-        }
-      }
-      
-      if (go) {
+      if (canGoUp(x, y)) {
         y--;
         putPlayer();
       }
     } else if (keyCode == DOWN) {
-      go = true;
-      for (int yi = y+1; yi < y+1+14 && go; yi++) {
-        for (int xi = x; xi < x+19 && go; xi++) {
-          if (get(xi, yi) == #000000)
-            go = false;
-        }
-      }
-      
-      if (go) {
+      if (canGoDown(x, y)) {
         y++;
         putPlayer();
       }
     } else if (keyCode == LEFT) {
-      go = true;
-      for (int yi = y; yi < y+14 && go; yi++) {
-        for (int xi = x-1; xi < x-1+19 && go; xi++) {
-          if (get(xi, yi) == #000000)
-            go = false;
-        }
-      }
-      
-      if (go) {
+      if (canGoLeft(x, y)) {
         x--;
         putPlayer();
       }
     } else if (keyCode == RIGHT) {
-      go = true;
-      for (int yi = y; yi < y+14 && go; yi++) {
-        for (int xi = x+1; xi < x+1+19 && go; xi++) {
-          if (get(xi, yi) == #000000)
-            go = false;
-        }
-      }
-      
-      if (go) {
+      if (canGoRight(x, y)) {
         x++;
         putPlayer();  
       }
@@ -106,11 +76,32 @@ void putPlayer() {
   background(bg);
   image(pg, 0, 0);
   
-  if (get(x+19, y) == #ff0000) {
+  // check if it reaches the red finish
+  if (get(x-1, y) == #ff0000) {
     x = 0;
     y = 12;
     
     JOptionPane.showMessageDialog(null, "You Win!");
     putPlayer();
   }
+}
+
+// check top right and bottom right to go right
+boolean canGoRight(int x, int y) {
+  return (get(x+19, y) != #000000 && get(x+19, y+13) != #000000);
+}
+
+// check top left && bottom left to go left
+boolean canGoLeft(int x, int y) {
+  return (get(x-1, y) != #000000 && get(x-1, y+13) != #000000);
+}
+
+// check top left && top right to go top
+boolean canGoUp(int x, int y) {
+  return (get(x, y-1) != #000000 && get(x+18, y-1) != #000000);
+}
+
+// check bottom left && bottom right to go down
+boolean canGoDown(int x, int y) {
+  return (get(x, y+14) != #000000 && get(x+18, y+14) != #000000);
 }
