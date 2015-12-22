@@ -92,15 +92,15 @@ boolean canGoRight(int x, int y) {
 
 // check top left && bottom left to go left
 boolean canGoLeft(int x, int y) {
-  return (get(x-1, y) != #000000 && get(x-1, y+13) != #000000);
+  return (get(x-1, y) != #000000 && get(x-1, y+13) != #000000 && x > 0);
 }
 
 // check top left && top right to go top
 boolean canGoUp(int x, int y) {
-  return (get(x, y-1) != #000000 && get(x+18, y-1) != #000000);
+  return (get(x, y-1) != #000000 && get(x+18, y-1) != #000000 && y > 0);
 }
 
 // check bottom left && bottom right to go down
 boolean canGoDown(int x, int y) {
-  return (get(x, y+14) != #000000 && get(x+18, y+14) != #000000);
+  return (get(x, y+14) != #000000 && get(x+18, y+14) != #000000 && y+14 < height);
 }
