@@ -7,3 +7,6 @@ C:\Users\alwayzmile\AppData\Local\Temporary Projects\HelloConsole\obj\Debug\Hell
 G:\Live Love Life\GitHub\PracticeKu\C#\FullPractice\HelloConsole\HelloConsole\bin\Debug\HelloConsole.exe.config
 G:\Live Love Life\GitHub\PracticeKu\C#\FullPractice\HelloConsole\HelloConsole\obj\Debug\HelloConsole.exe
 G:\Live Love Life\GitHub\PracticeKu\C#\FullPractice\HelloConsole\HelloConsole\obj\Debug\HelloConsole.pdb
+G:\Live Love Life\GitHub\PracticeKu\C#\FullPractice\HelloConsole\HelloConsole\bin\Debug\HelloConsole.exe
+G:\Live Love Life\GitHub\PracticeKu\C#\FullPractice\HelloConsole\HelloConsole\bin\Debug\HelloConsole.pdb
+G:\Live Love Life\GitHub\PracticeKu\C#\FullPractice\HelloConsole\HelloConsole\obj\Debug\HelloConsole.csprojResolveAssemblyReference.cache
