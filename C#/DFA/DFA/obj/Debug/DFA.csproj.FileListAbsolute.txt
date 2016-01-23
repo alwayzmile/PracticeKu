@@ -1,0 +1,6 @@
+c:\users\alwayzmile\documents\visual studio 2013\Projects\DFA\DFA\bin\Debug\DFA.exe.config
+c:\users\alwayzmile\documents\visual studio 2013\Projects\DFA\DFA\obj\Debug\DFA.csprojResolveAssemblyReference.cache
+c:\users\alwayzmile\documents\visual studio 2013\Projects\DFA\DFA\bin\Debug\DFA.exe
+c:\users\alwayzmile\documents\visual studio 2013\Projects\DFA\DFA\bin\Debug\DFA.pdb
+c:\users\alwayzmile\documents\visual studio 2013\Projects\DFA\DFA\obj\Debug\DFA.exe
+c:\users\alwayzmile\documents\visual studio 2013\Projects\DFA\DFA\obj\Debug\DFA.pdb
