@@ -1,0 +1,3 @@
+﻿#z::
+	Send,! n
+Return
