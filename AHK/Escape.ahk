@@ -1,0 +1,3 @@
+﻿esc::
+	MsgBox Escape!!!
+Return
